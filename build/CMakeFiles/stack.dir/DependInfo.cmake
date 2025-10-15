@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/morelv/is/algo/tp1/1.2.cpp" "CMakeFiles/stack.dir/1.2.cpp.o" "gcc" "CMakeFiles/stack.dir/1.2.cpp.o.d"
+  "/home/morelv/is/algo/tp1/fifo_table.cpp" "CMakeFiles/stack.dir/fifo_table.cpp.o" "gcc" "CMakeFiles/stack.dir/fifo_table.cpp.o.d"
   "/home/morelv/is/algo/tp1/main.cpp" "CMakeFiles/stack.dir/main.cpp.o" "gcc" "CMakeFiles/stack.dir/main.cpp.o.d"
   "/home/morelv/is/algo/tp1/pile_table.cpp" "CMakeFiles/stack.dir/pile_table.cpp.o" "gcc" "CMakeFiles/stack.dir/pile_table.cpp.o.d"
   )

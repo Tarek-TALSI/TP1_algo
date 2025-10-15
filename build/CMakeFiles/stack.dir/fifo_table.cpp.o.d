@@ -1,6 +1,6 @@
-CMakeFiles/stack.dir/main.cpp.o: /home/morelv/is/algo/tp1/main.cpp \
- /usr/include/stdc-predef.h /home/morelv/is/algo/tp1/main.hpp \
- /home/morelv/is/algo/tp1/pile_table.hpp /usr/include/c++/13/stdlib.h \
+CMakeFiles/stack.dir/fifo_table.cpp.o: \
+ /home/morelv/is/algo/tp1/fifo_table.cpp /usr/include/stdc-predef.h \
+ /home/morelv/is/algo/tp1/fifo_table.hpp /usr/include/c++/13/stdlib.h \
  /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -152,5 +152,4 @@ CMakeFiles/stack.dir/main.cpp.o: /home/morelv/is/algo/tp1/main.cpp \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/array \
- /usr/include/c++/13/compare /home/morelv/is/algo/tp1/1.2.h \
- /home/morelv/is/algo/tp1/fifo_table.hpp
+ /usr/include/c++/13/compare

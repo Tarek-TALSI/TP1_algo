@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/stack.dir/main.cpp.o CMakeFiles/stack.dir/pile_table.cpp.o -o stack 
+/usr/bin/c++ CMakeFiles/stack.dir/main.cpp.o CMakeFiles/stack.dir/pile_table.cpp.o CMakeFiles/stack.dir/fifo_table.cpp.o CMakeFiles/stack.dir/1.2.cpp.o -o stack 

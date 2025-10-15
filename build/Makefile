@@ -129,6 +129,54 @@ stack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
 .PHONY : stack/fast
 
+1.2.o: 1.2.cpp.o
+.PHONY : 1.2.o
+
+# target to build an object file
+1.2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/1.2.cpp.o
+.PHONY : 1.2.cpp.o
+
+1.2.i: 1.2.cpp.i
+.PHONY : 1.2.i
+
+# target to preprocess a source file
+1.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/1.2.cpp.i
+.PHONY : 1.2.cpp.i
+
+1.2.s: 1.2.cpp.s
+.PHONY : 1.2.s
+
+# target to generate assembly for a file
+1.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/1.2.cpp.s
+.PHONY : 1.2.cpp.s
+
+fifo_table.o: fifo_table.cpp.o
+.PHONY : fifo_table.o
+
+# target to build an object file
+fifo_table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/fifo_table.cpp.o
+.PHONY : fifo_table.cpp.o
+
+fifo_table.i: fifo_table.cpp.i
+.PHONY : fifo_table.i
+
+# target to preprocess a source file
+fifo_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/fifo_table.cpp.i
+.PHONY : fifo_table.cpp.i
+
+fifo_table.s: fifo_table.cpp.s
+.PHONY : fifo_table.s
+
+# target to generate assembly for a file
+fifo_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/fifo_table.cpp.s
+.PHONY : fifo_table.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... stack"
+	@echo "... 1.2.o"
+	@echo "... 1.2.i"
+	@echo "... 1.2.s"
+	@echo "... fifo_table.o"
+	@echo "... fifo_table.i"
+	@echo "... fifo_table.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
