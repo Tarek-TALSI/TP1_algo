@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/stack.dir/main.cpp.o CMakeFiles/stack.dir/pile_table.cpp.o -o stack 
