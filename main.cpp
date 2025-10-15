@@ -1,7 +1,7 @@
 #include "main.hpp"
 #include "pile_table.hpp"
 #include <iostream>
-#include "1.2.h"
+#include "pile_chaine.h"
 #include "fifo_table.hpp"
 #include "fifo.hpp"
 
