@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <iostream>
 
-typdef P
+struct struct_node;
+typedef struct_node* Pnode;
 typedef struct struct_node{
     int value;
     Pnode link;
@@ -9,5 +10,16 @@ typedef struct struct_node{
 
 class Fifo_chaine {
     private :
-        struct_node 
-}
+        Pnode front;
+        Pnode roar;
+
+    public :
+        Fifo_chaine();
+        ~Fifo_chaine();
+
+        void add_to_fifo(int element_i);
+
+        int remove_from_fifo();
+
+        void print_fifo();
+};
