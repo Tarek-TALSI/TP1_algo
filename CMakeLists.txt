@@ -9,5 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(stack
     main.cpp
     pile_table.cpp
+    fifo_table.cpp
     1.2.cpp
 )

@@ -2,6 +2,7 @@
 #include "pile_table.hpp"
 #include <iostream>
 #include "1.2.h"
+#include "fifo_table.hpp"
 
 int main(){
     /*
@@ -26,7 +27,7 @@ int main(){
     return 0;
     */
 
-    //** TEST PILE AVEC UNE LISTE CHAINEE (exo 1.2) **
+    /*//** TEST PILE AVEC UNE LISTE CHAINEE (exo 1.2) **
     std::cout << "TEST PILE AVEC UNE LISTE CHAINEE (exo 1.2)" << std::endl;
     StackInit();
     Pop();
@@ -41,5 +42,21 @@ int main(){
     for(int i=0; i<17; i++){
         Pop();
     };
-    return 0;
+    return 0;*/
+
+    //**  TEST FIFO AVEC LISTE CIRCULAIRE **
+    /*std::cout << "TEST FIFO AVEC LISTE CIRCULAIRE (exo 2.2)" << std::endl;
+    Fifo fifo;
+    fifo.remove_from_fifo();
+    for(int i=0;i<fifo_lenght+2;i++){
+        fifo.add_to_fifo(i+1);
+    }
+    for(int i=0;i<int(fifo_lenght/2);i++){
+        fifo.remove_from_fifo();
+    }
+    for(int i=int(fifo_lenght/2)+1;i<fifo_lenght;i++){
+        fifo.add_to_fifo(i+1);
+        fifo.remove_from_fifo();
+    }
+    return 0;*/
 }
