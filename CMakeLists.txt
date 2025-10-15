@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(stack
     main.cpp
-    td1.cpp
+    pile_table.cpp
 )
