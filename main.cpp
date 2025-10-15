@@ -28,21 +28,35 @@ int main(){
     */
 
     /*//** TEST PILE AVEC UNE LISTE CHAINEE (exo 1.2) **
-    std::cout << "TEST PILE AVEC UNE LISTE CHAINEE (exo 1.2)" << std::endl;
     StackInit();
-    Pop();
     Push(4);
     Push(6);
     Push(8);
     Pop();
     Push(3);
-    for(int i=0; i<17; i++){
+
+    for (int i = 0; i < 5; i++) {
         Push(i);
-    };
-    for(int i=0; i<17; i++){
+    }
+
+    
+    std::cout << "Pile actuelle (haut -> bas) : ";
+    TNode* current = Top;
+    while (current != nullptr) {
+        std::cout << current->Value << " ";
+        current = current->Link;
+    }
+    std::cout << std::endl;
+
+    
+    while ((Top == nullptr) == false) {
         Pop();
-    };
-    return 0;*/
+    }
+
+    // Vérifie que c’est vide
+    std::cout << "Après vidage, Top = " << Top << std::endl;
+    return 0;
+    */
 
     //**  TEST FIFO AVEC LISTE CIRCULAIRE **
     /*std::cout << "TEST FIFO AVEC LISTE CIRCULAIRE (exo 2.2)" << std::endl;
