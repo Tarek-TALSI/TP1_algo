@@ -59,7 +59,7 @@ int main(){
     return 0;
     */
 
-    //**  TEST FIFO DE BASE **
+    /*//**  TEST FIFO DE BASE **
     std::cout << "TEST FIFO DE BASE (exo 2.1)" << std::endl;
     Fifo_simplest fifo;
     fifo.remove_from_fifo();
@@ -73,7 +73,7 @@ int main(){
         fifo.add_to_fifo(i+1);
         fifo.remove_from_fifo();
     }
-    return 0;
+    return 0;*/
 
     //**  TEST FIFO AVEC LISTE CIRCULAIRE **
     /*std::cout << "TEST FIFO AVEC LISTE CIRCULAIRE (exo 2.2)" << std::endl;
