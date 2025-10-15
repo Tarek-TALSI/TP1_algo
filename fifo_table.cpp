@@ -8,8 +8,6 @@ void Fifo::add_to_fifo(int element_i){
         Fifo::print_fifo();
         return;
     };
-    roar--;
-    curr_lenght--;
     std::cout << "the fifo is full" << std::endl;
     Fifo::print_fifo();
     return;

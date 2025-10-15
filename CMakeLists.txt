@@ -10,5 +10,6 @@ add_executable(stack
     main.cpp
     pile_table.cpp
     fifo_table.cpp
+    fifo.cpp
     1.2.cpp
 )

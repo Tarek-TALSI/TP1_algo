@@ -3,6 +3,7 @@
 #include <iostream>
 #include "1.2.h"
 #include "fifo_table.hpp"
+#include "fifo.hpp"
 
 int main(){
     /*
@@ -57,6 +58,22 @@ int main(){
     std::cout << "Après vidage, Top = " << Top << std::endl;
     return 0;
     */
+
+    //**  TEST FIFO DE BASE **
+    std::cout << "TEST FIFO DE BASE (exo 2.1)" << std::endl;
+    Fifo_simplest fifo;
+    fifo.remove_from_fifo();
+    for(int i=0;i<fifo_lenght+2;i++){
+        fifo.add_to_fifo(i+1);
+    }
+    for(int i=0;i<int(fifo_lenght/2);i++){
+        fifo.remove_from_fifo();
+    }
+    for(int i=int(fifo_lenght/2)+1;i<fifo_lenght;i++){
+        fifo.add_to_fifo(i+1);
+        fifo.remove_from_fifo();
+    }
+    return 0;
 
     //**  TEST FIFO AVEC LISTE CIRCULAIRE **
     /*std::cout << "TEST FIFO AVEC LISTE CIRCULAIRE (exo 2.2)" << std::endl;
