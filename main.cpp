@@ -4,6 +4,9 @@
 #include "pile_chaine.h"
 #include "fifo_table.hpp"
 #include "fifo.hpp"
+#include "tas_binaire.h"
+#include "tas_binaire_min.h"
+#include "vector"
 
 int main(){
     /*
@@ -90,4 +93,29 @@ int main(){
         fifo.remove_from_fifo();
     }
     return 0;*/
+
+
+    // TEST TAS BINAIRE
+
+    /*
+     std::vector<int> valeurs = {27, 12, 8, 45, 17, 63, 100, 5, 75, 90, 26, 32, 188, 95};
+
+    // Test du TAS-MAX 
+    for (int v : valeurs) inserer(v);
+
+    std::cout << "TAS-MAX après insertion : ";
+    for (int x : heap) std::cout << x << " ";
+    std::cout << "\nExtraction décroissante : ";
+    while (!heap.empty()) std::cout << extraire_max() << " ";
+    std::cout << "\n\n";
+
+    // Test du TAS-MIN
+    for (int v : valeurs) inserer_min(v);
+
+    std::cout << "TAS-MIN après insertion : ";
+    for (int x : heap_min) std::cout << x << " ";
+    std::cout << "\nExtraction croissante : ";
+    while (!heap_min.empty()) std::cout << extraire_min() << " ";
+    std::cout << std::endl;
+    */
 }

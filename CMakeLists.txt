@@ -11,5 +11,6 @@ add_executable(stack
     pile_table.cpp
     fifo_table.cpp
     fifo.cpp
-    1.2.cpp
+    tas_binaire.cpp
+    tas_binaire_min.cpp
 )
